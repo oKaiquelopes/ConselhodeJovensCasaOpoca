@@ -399,6 +399,20 @@ article{
 #aside-redes{
     width: 50%;
 }
+.siga-nas-redes{
+    width: 57%;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 1.3em;
+    color: white;
+    margin-top: 20%;
+    margin-left: 12%;
+    border-bottom: 2px solid #FFBF00;
+}
+.siga-nas-redes::selection{
+    background-color: rgb(142, 201, 250);
+    color: black;
+}
 .icons-social{
     display: flex;
     width: 100%;
@@ -461,14 +475,6 @@ article{
 .financie::selection{
     background-color: rgb(142, 201, 250);
     color: black;
-}
-.icons-social{
-    display: flex;
-    flex-direction: row;
-    height: 30px;
-    gap: 30px;
-    margin-left: 25%;
-    margin-top: 4%;
 }
 .financie-p{
     font-family: "Raleway";
