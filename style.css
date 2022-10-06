@@ -226,8 +226,8 @@ body{
 }
 #conheca-opoca{
     display: flex;
-    height: 215vh;
-    background-color: #2f2f2f;
+    height: 210vh;
+    background-color: #1A1A1A;
     flex-direction: column;
 }
 .title-conehca-opoca{
@@ -266,7 +266,7 @@ body{
     margin-top: 3%;
     display: flex;
     float: right;
-    height: 400px;
+    height: 320px;
 }
 .func{
     display: flex;
@@ -585,27 +585,36 @@ article{
     font-family: "Poppins";
     font-weight: 400;
     font-size: 0.8em;
-    width: 40%;
+    width: 45%;
+    height: 22px;
     margin-bottom: 2%;
     margin-left: 3%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
 }
 #emailInput{
     padding: 1px;
     font-family: "Poppins";
     font-weight: 400;
     font-size: 0.8em;
-    width: 40%;
+    width: 45%;
+    height: 22px;
     margin-bottom: 2%;
     margin-left: 3%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
 }
 #assinar{
     font-family: "Poppins";
     font-weight: 600;
     font-size: 1em;
-    padding: 1px;
+    padding: 3px;
     cursor: pointer;
     margin-left: 3%;
     user-select: none;
+    width: 12%;
 }
 .hr-news{
     height: 50%;
@@ -653,7 +662,7 @@ article{
 #quem-faz{
     display: flex;
     height: 100vh;
-    background-color: #2f2f2f;
+    background-color: #1A1A1A;
     flex-direction: column;
     width: 100%;
 }
@@ -1127,7 +1136,7 @@ article{
     display: flex;
     flex-direction: row;
     background-color: black;
-    height: 300px;
+    height: 250px;
 }
 .loc{
     display: flex;
